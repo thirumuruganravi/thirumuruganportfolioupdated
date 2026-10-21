@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#2D1A10" />
+      <stop offset="60%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#050811" />
+    </radialGradient>
+    <linearGradient id="cyberBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00" />
+      <stop offset="100%" stop-color="#EA580C" />
+    </linearGradient>
+  </defs>
+
+  <rect x="6" y="6" width="116" height="116" rx="32" fill="url(#bgGlow)" />
+  <rect x="6" y="6" width="116" height="116" rx="32" stroke="url(#cyberBorder)" stroke-width="3" />
+  <circle cx="64" cy="64" r="38" fill="#FF5500" opacity="0.2" />
+
+  <!-- Razor-sharp 2026 Developer Code Brackets & Slash -->
+  <path d="M46 42 L26 64 L46 86" stroke="#FF7A00" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M82 42 L102 64 L82 86" stroke="#FF7A00" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M69 36 L59 92" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" />
+</svg>
